@@ -24,7 +24,7 @@
 
 header {
     /* background: linear-gradient(90deg, #111 0%, rgba(69, 69, 69, 0.40) 51%, #1C1C1C 100%); */
-    backdrop-filter: blur(6.300000190734863px);
+    /* backdrop-filter: blur(6.300000190734863px); */
 }
 
 .headingTxt {
