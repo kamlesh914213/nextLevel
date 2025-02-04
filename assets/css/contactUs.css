@@ -1,0 +1,192 @@
+.contactForm {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #FFF;
+    padding: 60px 0px 40px 0px;
+}
+
+.topbar {
+    /* background-color: unset; */
+}
+.sidepanel {
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    right: 100%;
+    background: black;
+    overflow-x: hidden;
+    padding-top: 50px;
+    transition: right 0.5s ease;
+}
+.bannerImg {
+    position: absolute;
+    z-index: -1;
+    top: -90%;
+    width: 100%;
+}
+
+.bannerImg img {
+    width: 100%;
+    object-fit: cover;
+    height: 700px;
+}
+
+.form-label {
+    color: black;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    text-transform: capitalize;
+}
+
+.submitBtn button {
+    border-radius: unset !important;
+}
+
+.submitBtn button {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+    transition: color 0.5s ease;
+    text-transform: uppercase;
+}
+
+.submitBtn button:hover {
+    background-color: rgba(255, 255, 255, 1);
+    color: rgba(32, 101, 230, 1);
+}
+
+.call-contact svg {
+    width: 16px;
+    fill: white;
+}
+
+.contacUstMe {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background: linear-gradient(90deg, #111 0%, rgba(69, 69, 69, 0.40) 51%, #1C1C1C 100%); */
+    backdrop-filter: blur(6.300000190734863px);
+    padding: 7% 0;
+    position: relative;
+    z-index: -1;
+}
+
+.contactme {
+    color: white;
+    font-family: poppins;
+    font-size: 56.653px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 119%;
+    margin: 0;
+    padding: 20% 0;
+    text-align: center;
+}
+
+.call-contact {
+    color: white;
+    font-family: Texturina;
+    font-size: 18.653px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 119%;
+    padding: 0;
+    margin: 0;
+}
+
+.call-contact {
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 20px;
+}
+
+.hero-content {
+    padding-bottom: 120px;
+}
+
+header {
+    /* background: linear-gradient(90deg, #111 0%, rgba(69, 69, 69, 0.40) 51%, #1C1C1C 100%); */
+    /* backdrop-filter: blur(6.300000190734863px); */
+}
+
+.headingTxt {
+    justify-content: center;
+}
+
+.call-contact li {
+    margin: 0 auto;
+    color: black;
+    border-radius: 8px;
+    text-align: center;
+    border: 1px solid black;
+    max-width: 350px;
+    padding: 20px;
+    margin-bottom: 50px !important;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.call-contact li h3 {
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.call-contact li h3:hover {
+    color: rgba(32, 101, 230, 1);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+@media (max-width:991px) {
+    .call-contact li {
+        max-width: 100%;
+    }
+    .contactForm {
+        padding: 20px 0px 10px 0px;
+    }
+}
+
+@media (max-width:768px) {
+    .hero-content {
+        padding-bottom: 50px;
+    }
+
+    .bannerImg {
+        top: -75%;
+    }
+    .contacUstMe {
+            background: linear-gradient(90deg, #111 0%, rgba(69, 69, 69, 0.40) 51%, #1C1C1C 100%);
+    }
+}
+
+@media (max-width:576px) {
+    .contactme {
+        font-size: 41.653px;
+    }
+
+    .call-contact li {
+        margin-bottom: 20px !important;
+    }
+
+    .bannerImg {
+        top: -80%;
+    }
+}
+
+@media (max-width:480px) {
+    .call-contact h4 {
+        font-size: 16.653px;
+    }
+}
